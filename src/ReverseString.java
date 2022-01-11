@@ -5,6 +5,7 @@ public class ReverseString {
     }
 
     public static void reverseString(char[] s) {
+//      reverse string using two pointers
         int start = 0;
         int end = s.length - 1;
 

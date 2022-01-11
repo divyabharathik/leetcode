@@ -5,6 +5,7 @@ public class LongestCommonPrefix {
     }
 
     public static String longestCommonPrefix(String[] strs) {
+//      longest Common Prefix
         String cp = strs[0];
         for (int i = 1; i < strs.length; i++) {
             //reduce the size of the first string until the next string is within the 1st string

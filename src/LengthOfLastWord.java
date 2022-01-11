@@ -4,6 +4,7 @@ public class LengthOfLastWord {
         System.out.println(lengthOfLastWord(s));
     }
     public static int lengthOfLastWord(String s) {
+//      length of last word
         s = s.trim();
         StringBuilder word = new StringBuilder();
         boolean found = false;
